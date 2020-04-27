@@ -2,6 +2,8 @@
 
 Detecting corona-virus (Covid-19) Infections in Chest X-Ray images through Transfer Learning
 
+Find dataset here: https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view
+
 Using Vgg-16 and ResNet-18 pretrained models from pytorch and finetuning just only fully-connected layer of network at first so that they can learn on the learned filters of ImageNet and detect the difference between infected and normal person\'s X\-ray images. 
 
 #### Vgg-16
