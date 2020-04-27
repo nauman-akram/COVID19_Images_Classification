@@ -8,34 +8,56 @@ Using Vgg-16 and ResNet-18 pretrained models from pytorch and finetuning just on
 
 > Vgg-16 fine-tuned only FC layers
 
-Accuracy | Loss
-------------
-![Accuracy curves](/Accuracy_Loss/vgg_fc_acc.png) | ![Loss curves](/Accuracy_Loss/vgg_fc_loss.png)
 
+![Accuracy curves](/Accuracy_Loss/vgg_fc_acc.png)  ![Loss curves](/Accuracy_Loss/vgg_fc_loss.png)
+
+
+##### Confusion Matrix
+
+![Test](/Confusion_Matrix/Only_FC/vggCM_test.png) | ![Train](/Confusion_Matrix/Only_FC/vggCM_train.png) | ![Validation](/Confusion_Matrix/Only_FC/vggCM_val.png)
+
+------------
 
 > Vgg-16 fine-tuned Entire network
 
-Accuracy | Loss
 ------------
-![Accuracy curves](/Accuracy_Loss/vgg_Ent_acc.png) | ![Loss curves](/Accuracy_Loss/vgg_Ent_loss.png)
+![Accuracy curves](/Accuracy_Loss/vgg_Ent_acc.png)  ![Loss curves](/Accuracy_Loss/vgg_Ent_loss.png)
+
+##### Confusion Matrix
+
+![Test](/Confusion_Matrix/Entire/vggCM_test.png) | ![Train](/Confusion_Matrix/Entire/vggCM_train.png) | ![Validation](/Confusion_Matrix/Entire/vggCM_val.png)
+
+------------
+
 
 
 #### ResNet-18
 
 > Resnet-18 fine-tuned only FC layers
 
-Accuracy | Loss
 ------------
-![Accuracy curves](/Accuracy_Loss/resnet_fc_acc.png) | ![Loss curves](/Accuracy_Loss/resnet_fc_loss.png)
+![Accuracy curves](/Accuracy_Loss/resnet_fc_acc.png)  ![Loss curves](/Accuracy_Loss/resnet_fc_loss.png)
+
+##### Confusion Matrix
+
+![Test](/Confusion_Matrix/Only_FC/resnetCM_test.png) | ![Train](/Confusion_Matrix/Only_FC/resnetCM_train.png) | ![Validation](/Confusion_Matrix/Only_FC/resnetCM_val.png)
+
+------------
 
 
 > Resnet-18 fine-tuned Entire network
 
-Accuracy | Loss
 ------------
-![Accuracy curves](/Accuracy_Loss/resnet_Ent_acc.png) | ![Loss curves](/Accuracy_Loss/resnet_Ent_loss.png)
+![Accuracy curves](/Accuracy_Loss/resnet_Ent_acc.png)  ![Loss curves](/Accuracy_Loss/resnet_Ent_loss.png)
+
+
+##### Confusion Matrix
+
+![Test](/Confusion_Matrix/Entire/resnetCM_test.png) | ![Train](/Confusion_Matrix/Entire/resnetCM_train.png) | ![Validation](/Confusion_Matrix/Entire/resnetCM_val.png)
+
+------------
 
 
 
 
-_“This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes.”_
+_“This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at **Information Technology University, Lahore, Pakistan**. This assignment is only for learning purposes and is not intended to be used for clinical purposes.”_
