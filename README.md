@@ -6,6 +6,8 @@ Using Vgg-16 and ResNet-18 pretrained models from pytorch and finetuning just on
 
 #### Vgg-16
 > Vgg-16 fine-tuned only FC layers
+-----
+
 ![Accuracy curves](/Accuracy_Loss/vgg_fc_acc.png) ![Loss curves](/Accuracy_Loss/vgg_fc_loss.png)
 
 ##### Confusion Matrix
@@ -13,6 +15,8 @@ Using Vgg-16 and ResNet-18 pretrained models from pytorch and finetuning just on
 
 
 > Vgg-16 fine-tuned Entire network
+-----
+
 ![Accuracy curves](/Accuracy_Loss/vgg_Ent_acc.png)  ![Loss curves](/Accuracy_Loss/vgg_Ent_loss.png)
 
 ##### Confusion Matrix
@@ -21,6 +25,8 @@ Using Vgg-16 and ResNet-18 pretrained models from pytorch and finetuning just on
 
 #### ResNet-18
 > Resnet-18 fine-tuned only FC layers
+-----
+
 ![Accuracy curves](/Accuracy_Loss/resnet_fc_acc.png)  ![Loss curves](/Accuracy_Loss/resnet_fc_loss.png)
 
 ##### Confusion Matrix
@@ -28,6 +34,8 @@ Using Vgg-16 and ResNet-18 pretrained models from pytorch and finetuning just on
 
 
 > Resnet-18 fine-tuned Entire network
+-----
+
 ![Accuracy curves](/Accuracy_Loss/resnet_Ent_acc.png)  ![Loss curves](/Accuracy_Loss/resnet_Ent_loss.png)
 
 ##### Confusion Matrix
